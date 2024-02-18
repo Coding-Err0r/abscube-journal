@@ -8,7 +8,6 @@ const LandingLayout = ({ children }: { children: React.ReactNode }) => {
   return (
     <div>
       <Navbar />
-      <div className="bg-gray-600 w-full h-[800rem]" />
       <ToastContainer />
       {children}
     </div>

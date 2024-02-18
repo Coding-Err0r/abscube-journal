@@ -1,7 +1,7 @@
-import React, { useEffect } from "react";
+import LandingPage from "@/components/pages/LandingPage"
 
 const Homepage = () => {
-  return <div className="overflow-hidden "></div>;
+  return <LandingPage/>
 };
 
 export default Homepage;
