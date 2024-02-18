@@ -28,7 +28,7 @@ const volumes = data.volumes.map((item) => ({
 
 const AdvanceSearch = () => {
   return (
-    <div className="flex flex-col gap-4 w-full max-w-xl my-12 order-1">
+    <div className="flex flex-col gap-4 w-full max-w-xl my-12 order-1 p-4">
       <InputGroup inside className="w-full">
         <Input />
         <InputGroup.Button>
@@ -41,22 +41,14 @@ const AdvanceSearch = () => {
         placeholder="Select Date"
         className="w-full"
       />
-      <div className="grid grid-cols-3 gap-4">
+      <div className="grid md:grid-cols-3 gap-4">
         <SelectPicker
           data={topics}
-          style={{ width: 224 }}
+          className="w-full"
           placeholder="Research Topics"
         />
-        <SelectPicker
-          data={issues}
-          style={{ width: 224 }}
-          placeholder="Issues"
-        />
-        <SelectPicker
-          data={volumes}
-          style={{ width: 224 }}
-          placeholder="Volumes"
-        />
+        <SelectPicker data={issues} className="w-full" placeholder="Issues" />
+        <SelectPicker data={volumes} className="w-full" placeholder="Volumes" />
       </div>
       <button className="w-full text-white bg-emerald-500 p-4 rounded-lg text-lg font-semibold">
         Search
