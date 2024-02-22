@@ -1,3 +1,6 @@
+import { title } from "process";
+import images from "./images";
+
 export const data = {
   navbar: [
     {
@@ -204,6 +207,7 @@ export const data = {
     "Social policy",
     "Sociology",
   ],
+
   issues: [
     "Issue 1",
     "Issue 2",
@@ -218,6 +222,7 @@ export const data = {
     "Issue 11",
     "Issue 12",
   ],
+
   volumes: [
     "Volume 1",
     "Volume 2",
@@ -225,5 +230,184 @@ export const data = {
     "Volume 4",
     "Volume 5",
     "Volume 6",
+  ],
+
+  services: [
+    {
+      icon: images.service1,
+      title: "Indexing the world’s repositories",
+      description: "We serve the global network of repositories and journals",
+    },
+    {
+      icon: images.service2,
+      title: "Comprehensive data coverage",
+      description:
+        "We provide both metadata and full text access to our comprehensive collection through our APIs and Datasets",
+    },
+    {
+      icon: images.service3,
+      title: "Powerful services",
+      description:
+        "We create powerful services for researchers, universities, and industry",
+    },
+    {
+      icon: images.service4,
+      title: "Cutting-edge solutions",
+      description:
+        "We research and develop innovative data-driven and AI solutions",
+    },
+  ],
+
+  coreSerctions: [
+    {
+      icon: images.core1,
+      title: "Become a data provider",
+      href: "/data-provider",
+    },
+    {
+      icon: images.core2,
+      title: "become a member",
+      href: "/register",
+    },
+    {
+      icon: images.core3,
+      title: "explore our services",
+      href: "/services",
+    },
+  ],
+
+  serveSections: [
+    {
+      title: "Companies",
+      description:
+        "Enabling others to create new tools and innovate using a global comprehensive collection of research papers.",
+      quote:
+        "Our partnership with CORE will provide Turnitin with vast amounts of metadata and full texts that we can utilise in our plagiarism detection software.",
+      partner: "Gareth Malcolm, Content Partner Manager at Turnitin",
+    },
+    {
+      title: "Academic institutions",
+      description:
+        "Making research more discoverable, improving metadata quality, helping to meet and monitor open access compliance.",
+      quote:
+        "CORE’s role in providing a unified search of repository content is a great tool for the researcher and extends the reach of the locally held content in our institutional repository, Open Research Online",
+      partner: "Nicola Dowson, Library Services Manager at Open University",
+    },
+    {
+      title: "Researchers & general public",
+      description:
+        "Tools to find, discover and explore the wealth of open access research. Free for everyone, forever.",
+      quote:
+        "With millions of research papers available across thousands of different systems, CORE provides an invaluable service helping researchers to save time and effort. CORE’s mission to make all this content available for text and data mining is critical for future avenues of research, and a major part of advancing open science.",
+      partner:
+        "Jon Tennant, Rogue Paleontologist and Founder of the Open Science MOOC",
+    },
+    {
+      title: "Funders",
+      description:
+        "Helping funders to analyse, audit and monitor open research and accelerate towards open science.",
+      quote:
+        "Aggregation plays an increasingly essential role in maximising the long-term benefits of open access, helping to turn the promise of a 'research commons' into a reality. The aggregation services that CORE provides therefore make a very valuable contribution to the evolving open access environment in the UK.",
+      partner: "Ben Johnson, Research Policy Adviser at Research England",
+    },
+  ],
+
+  recents: [
+    {
+      title: "ACM Transactions on Internet of Things",
+      issue: 1,
+      volume: 56,
+      date: "01-01-2024",
+    },
+    {
+      title: "ACM Transactions on Internet of Things",
+      issue: 2,
+      volume: 57,
+      date: "02-05-2023",
+    },
+    {
+      title: "ACM Transactions on Internet of Things",
+      issue: 5,
+      volume: 58,
+      date: "01-01-2024",
+    },
+    {
+      title: "ACM Transactions on Internet of Things",
+      issue: 5,
+      volume: 58,
+      date: "01-01-2024",
+    },
+    {
+      title: "ACM Transactions on Internet of Things",
+      issue: 1,
+      volume: 56,
+      date: "01-01-2024",
+    },
+    {
+      title: "ACM Transactions on Internet of Things",
+      issue: 2,
+      volume: 57,
+      date: "02-05-2023",
+    },
+    {
+      title: "ACM Transactions on Internet of Things",
+      issue: 5,
+      volume: 58,
+      date: "01-01-2024",
+    },
+    {
+      title: "ACM Transactions on Internet of Things",
+      issue: 5,
+      volume: 58,
+      date: "01-01-2024",
+    },
+    {
+      title: "ACM Transactions on Internet of Things",
+      issue: 1,
+      volume: 56,
+      date: "01-01-2024",
+    },
+    {
+      title: "ACM Transactions on Internet of Things",
+      issue: 2,
+      volume: 57,
+      date: "02-05-2023",
+    },
+    {
+      title: "ACM Transactions on Internet of Things",
+      issue: 5,
+      volume: 58,
+      date: "01-01-2024",
+    },
+    {
+      title: "ACM Transactions on Internet of Things",
+      issue: 5,
+      volume: 58,
+      date: "01-01-2024",
+    },
+    {
+      title: "ACM Transactions on Internet of Things",
+      issue: 1,
+      volume: 56,
+      date: "01-01-2024",
+    },
+    {
+      title: "ACM Transactions on Internet of Things",
+      issue: 2,
+      volume: 57,
+      date: "02-05-2023",
+    },
+    {
+      title: "ACM Transactions on Internet of Things",
+      issue: 5,
+      volume: 58,
+      date: "01-01-2024",
+    },
+    {
+      title: "ACM Transactions on Internet of Things",
+      issue: 5,
+      volume: 58,
+      date: "01-01-2024",
+    },
   ],
 };
